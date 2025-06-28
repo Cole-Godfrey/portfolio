@@ -38,6 +38,6 @@ export const projects = [
     }
 ];
 export const socials = [
-    { name: "LinkedIn", href: "https://www.linkedin.com/in/cole-godfrey-20b086324/" },
+    { name: "LinkedIn", href: "https://www.linkedin.com/in/c-godfrey/" },
     { name: "GitHub", href: "https://github.com/Cole-Godfrey/" },
 ];
