@@ -1,23 +1,42 @@
-export const experienceData = [
+export const skillsData = [
     {
-        title: "B.S. Computer Science",
+        title: "Frontend Development",
         description:
-            "I am currently pursuing a computer science degree at Washington State University. I am expected to graduate in May of 2028",
+            'import { frontendSkills } from "skills.jsx"',
         items: [
             {
-                title: "GPA: 3.96",
-                description: "(4.0 excluding non-cs classes)",
+                title: "React",
+                description: "(Component-based UI library for building dynamic applications)",
             },
             {
-                title: "Linear Algebra, Discrete Math, Calculus III",
-                description: "(GPA: 4.0)",
+                title: "TailwindCSS",
+                description: "(Utility-first CSS framework for rapid styling and customization)",
             },
             {
-                title: "Data Structures & Algorithms - C/C++",
-                description: "(GPA: 4.0)",
+                title: "Next.js",
+                description: "(React framework for server-side rendering and static site generation)",
+            },
+            {
+                title: "Three.js",
+                description: "(JavaScript library for creating 3D graphics in the browser)",
             },
         ],
-    }
+    },
+    {
+        title: "Backend & AI Development",
+        description:
+            "from skills import Backend, AI",
+        items: [
+            {
+                title: "Python",
+                description: "(Versatile language for scripting, automation, and data processing)",
+            },
+            {
+                title: "PyTorch",
+                description: "(Deep learning framework for building and training neural networks)",
+            },
+        ],
+    },
 ];
 export const projects = [
     {

@@ -6,12 +6,18 @@ import AnimatedHeaderSection from "../components/AnimatedHeaderSection.jsx";
 
 const Hero = () => {
     const isMobile = useMediaQuery({maxWidth: 853})
+    const text = "I build neural networks\nand full-stack apps that turn\ncomplex problems into intuitive solutions"
 
     return (
         <section
         id="home"
         className="flex flex-col justify-end min-h-screen">
-            <AnimatedHeaderSection/>
+            <AnimatedHeaderSection
+                subTitle={"403 Errors Forbidden"}
+                text={text}
+                title={"Cole Godfrey"}
+                textColor={"text-black"}
+            />
             <figure className="absolute inset-0 -z-50"
                     style={{width: "100vw", height: "100vh"}}>
                 <Canvas shadows
