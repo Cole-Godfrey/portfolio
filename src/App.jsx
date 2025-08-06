@@ -4,6 +4,7 @@ import Hero from "./sections/hero.jsx";
 import SkillsSummary from "./sections/SkillsSummary.jsx";
 import Skills from "./sections/skills.jsx";
 import ReactLenis from "lenis/react";
+import About from "./sections/about.jsx";
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
             <Hero/>
             <SkillsSummary/>
             <Skills/>
+            <About/>
         </ReactLenis>
     )
 }
