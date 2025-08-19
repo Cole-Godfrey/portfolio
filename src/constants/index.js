@@ -41,18 +41,48 @@ export const skillsData = [
 export const projects = [
     {
         id: 1,
-        name: "Mobile Accessories E-commerce",
+        name: "BOTTI (Neural Network For Valorant)",
         description:
-            "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
+            "A Deep Q Network designed to play first person shooter games.",
         href: "",
-        image: "/assets/projects/mobile-accessories-store.jpg",
-        bgImage: "/assets/backgrounds/blanket.jpg",
+        image: "/assets/projects/botti.png",
+        bgImage: "/assets/backgrounds/valorantbg.jpg",
         frameworks: [
-            { id: 1, name: "React" },
-            { id: 2, name: "Next.js" },
-            { id: 3, name: "Node.js" },
-            { id: 4, name: "MongoDB" },
-            { id: 5, name: "Tailwind CSS" },
+            { id: 1, name: "Python" },
+            { id: 2, name: "PyTorch" },
+            { id: 3, name: "OpenCV" },
+        ],
+    },
+    {
+        id: 2,
+        name: "Audio CNN from Scratch",
+        description:
+            "An audio classification model trained from scratch using a convolutional neural network.",
+        href: "",
+        image: "/assets/projects/audiocnn.png",
+        bgImage: "/assets/backgrounds/cnnbg.jpg",
+        frameworks: [
+            { id: 1, name: "Python" },
+            { id: 2, name: "PyTorch" },
+            { id: 3, name: "Next.js" },
+            { id: 4, name: "React" },
+            { id: 5, name: "TailwindCSS" },
+        ],
+    },
+    {
+        id: 3,
+        name: "Mario Reinforcement Learning",
+        description:
+            "A reinforcement learning agent trained to play Super Mario Bros. using proximal policy optimization.",
+        href: "",
+        image: "/assets/projects/marioppo.png",
+        bgImage: "/assets/backgrounds/mariobg.jpg",
+        frameworks: [
+            { id: 1, name: "Python" },
+            { id: 2, name: "PyTorch" },
+            { id: 3, name: "Stable Baselines" },
+            { id: 4, name: "Gymnasium" },
+            { id: 5, name: "OpenCV" },
         ],
     }
 ];
