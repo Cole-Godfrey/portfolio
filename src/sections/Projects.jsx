@@ -22,6 +22,17 @@ const Projects = () => {
             duration: 2,
             ease: "power3.out"
         })
+        gsap.from("#project", {
+            y: 100,
+            opacity: 0,
+            delay: 0.5,
+            duration: 1,
+            stagger: 0.3,
+            ease: "back.out",
+            scrollTrigger: {
+                trigger: "#project",
+            }
+        });
     }, [])
     const handleMouseEnter = (index) => {
         if (window.innerWidth < 768) return;
