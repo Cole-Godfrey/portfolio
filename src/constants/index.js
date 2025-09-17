@@ -47,6 +47,7 @@ export const projects = [
         href: "",
         image: "/assets/projects/botti.png",
         bgImage: "/assets/backgrounds/valorantbg.jpg",
+        github: "https://github.com/Cole-Godfrey/botti",
         frameworks: [
             { id: 1, name: "Python" },
             { id: 2, name: "PyTorch" },
@@ -61,6 +62,7 @@ export const projects = [
         href: "",
         image: "/assets/projects/audiocnn.png",
         bgImage: "/assets/backgrounds/cnnbg.jpg",
+        github: "https://github.com/Cole-Godfrey/audio-cnn",
         frameworks: [
             { id: 1, name: "Python" },
             { id: 2, name: "PyTorch" },
@@ -77,6 +79,7 @@ export const projects = [
         href: "",
         image: "/assets/projects/marioppo.png",
         bgImage: "/assets/backgrounds/mariobg.jpg",
+        github: "https://github.com/Cole-Godfrey/mariorlppo",
         frameworks: [
             { id: 1, name: "Python" },
             { id: 2, name: "PyTorch" },

@@ -94,12 +94,15 @@ const Projects = () => {
             onMouseMove={handleMouseMove}
         >
             {projects.map((project, index) => (
-                <div
+                <a
                     key={project.id}
                     id="project"
-                    className="relative flex flex-col gap-1 py-15 cursor-pointer group md:gap-0"
-                    onMouseEnter={()=>handleMouseEnter(index)}
-                    onMouseLeave={()=>handleMouseLeave(index)}
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="relative block flex flex-col gap-1 py-15 cursor-pointer group md:gap-0"
+                    onMouseEnter={() => handleMouseEnter(index)}
+                    onMouseLeave={() => handleMouseLeave(index)}
                 >
                     {/*overlay*/}
                     <div ref={(el)=>{overlayRefs.current[index] = el;}} className="absolute inset-0 hidden md:block duration-200 bg-black -z-10 clip-path"/>
@@ -133,7 +136,7 @@ const Projects = () => {
                             className="absolute bg-center px-14 rounded-xl"
                         />
                     </div>
-                </div>
+                </a>
             ))}
             {/* Desktop Preview Image */}
             <div ref={previewRef} className="fixed -top-2/6 left-0 z-50 overflow-hidden border-8 border-black pointer-events-none w-[960px] md:block hidden opacity-0">
